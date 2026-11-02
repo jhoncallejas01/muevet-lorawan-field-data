@@ -2,8 +2,6 @@
 
 Raw field records from four test campaigns of the LoRaWAN/LTE telematic system for the urban collective public transport system (TPCU) of Tunja, Colombia. The system retrofits existing buses, seats and bus stops with low-cost IoT modules (i-Bus, i-Silla, i-Paradero) and delivers the data to the MueveT web platform.
 
-The data support the article *"Technological retrofitting of urban collective public transport in intermediate cities of the Global South: an IoT Edge–Cloud intelligent system aligned with a citizen-centred mobility evaluation model (case of Tunja, Colombia)"*, submitted to *Smart Cities* (MDPI).
-
 ## Repository structure
 
 ```
