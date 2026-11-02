@@ -1,0 +1,3430 @@
+[
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:29:03.694788988Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQC03BBS7GDDBNWQ8RK5ZH2J"
+      ],
+      "received_at": "2025-03-27T14:29:03.691026449Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 13,
+        "frm_payload": "BASD",
+        "decoded_payload": {
+          "D1": 4,
+          "D2": 1155
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:49:10.639229Z",
+            "timestamp": 2916798836,
+            "rssi": -69,
+            "channel_rssi": -69,
+            "snr": 9,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEPSi6+4KGgwIr8GVvwYQsvzb5QEgoNqI9vFU",
+            "channel_index": 5,
+            "received_at": "2025-03-27T14:29:03.481754674Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904900000",
+          "timestamp": 2916798836,
+          "time": "2012-01-01T05:49:10.639229Z"
+        },
+        "received_at": "2025-03-27T14:29:03.482816664Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.07692308,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQC03BBS7GDDBNWQ8RK5ZH2J"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQC03BJE60RWTA2P8J45SQR9"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:27:46.466952115Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQC00ZYEW5MAMVVHH8BB0EMJ"
+      ],
+      "received_at": "2025-03-27T14:27:46.464933584Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 12,
+        "frm_payload": "JwSW",
+        "decoded_payload": {
+          "D1": 39,
+          "D2": 1174
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:47:53.406678Z",
+            "timestamp": 2839571307,
+            "rssi": -91,
+            "channel_rssi": -91,
+            "snr": 4.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEOvWgcoKGgsI4sCVvwYQkoaNeSD4s46d0lI=",
+            "channel_index": 2,
+            "received_at": "2025-03-27T14:27:46.253969170Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904300000",
+          "timestamp": 2839571307,
+          "time": "2012-01-01T05:47:53.406678Z"
+        },
+        "received_at": "2025-03-27T14:27:46.256746756Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.083333336,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQC00ZYEW5MAMVVHH8BB0EMJ"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQC01052PSCXEEC7NRHHEMZ5"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:26:28.842850939Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZYM4GBKWH5K69RSC8AFGJ"
+      ],
+      "received_at": "2025-03-27T14:26:28.837070336Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 11,
+        "frm_payload": "SwIH",
+        "decoded_payload": {
+          "D1": 75,
+          "D2": 519
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:46:35.757518Z",
+            "timestamp": 2761916043,
+            "rssi": -93,
+            "channel_rssi": -93,
+            "snr": 6.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEIv9/aQKGgwIlMCVvwYQ/5jAqQIg+J2Z+LBQ",
+            "channel_index": 1,
+            "received_at": "2025-03-27T14:26:28.623905919Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904100000",
+          "timestamp": 2761916043,
+          "time": "2012-01-01T05:46:35.757518Z"
+        },
+        "received_at": "2025-03-27T14:26:28.625702071Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.09090909,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZYM4GBKWH5K69RSC8AFGJ"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZYMBACZBQ0RYC3CZ0KQ18"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:25:40.577566055Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZX50FTY4Q9RFEVPZRPTTF"
+      ],
+      "received_at": "2025-03-27T14:25:40.571220341Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 17,
+        "frm_payload": "BQPp",
+        "decoded_payload": {
+          "D1": 5,
+          "D2": 1001
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:45:47.522089Z",
+            "timestamp": 2713684708,
+            "rssi": -65,
+            "channel_rssi": -65,
+            "snr": 10,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEOSV/o0KGgwI5L+VvwYQk7GorwEgoJXaof1O",
+            "channel_index": 5,
+            "received_at": "2025-03-27T14:25:40.367663251Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904900000",
+          "timestamp": 2713684708,
+          "time": "2012-01-01T05:45:47.522089Z"
+        },
+        "received_at": "2025-03-27T14:25:40.368401150Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZX50FTY4Q9RFEVPZRPTTF"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZX5718NC0Q8V5XG6SK5E5"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:25:11.243108163Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZW8BG90BDW7XT54DYC8TK"
+      ],
+      "received_at": "2025-03-27T14:25:11.237048951Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 10,
+        "frm_payload": "HwIC",
+        "decoded_payload": {
+          "D1": 31,
+          "D2": 514
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:45:18.189245Z",
+            "timestamp": 2684348755,
+            "rssi": -91,
+            "channel_rssi": -91,
+            "snr": 9.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENPS//8JGgsIx7+VvwYQhtftCyC42J39j04=",
+            "channel_index": 3,
+            "received_at": "2025-03-27T14:25:11.024865670Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904500000",
+          "timestamp": 2684348755,
+          "time": "2012-01-01T05:45:18.189245Z"
+        },
+        "received_at": "2025-03-27T14:25:11.025856380Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.1,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZW8BG90BDW7XT54DYC8TK"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZW8JBJVCR9EH8PB730RDS"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:24:46.424136154Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZVG42QMQA84JZ0444T2X0"
+      ],
+      "received_at": "2025-03-27T14:24:46.421859947Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 16,
+        "frm_payload": "FQcd",
+        "decoded_payload": {
+          "D1": 21,
+          "D2": 1821
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:44:53.353637Z",
+            "timestamp": 2659518243,
+            "rssi": -64,
+            "channel_rssi": -64,
+            "snr": 9,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEKOOlPQJGgsIrr+VvwYQ6b6OZCC4wY+9s00=",
+            "channel_index": 1,
+            "received_at": "2025-03-27T14:24:46.209952617Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904100000",
+          "timestamp": 2659518243,
+          "time": "2012-01-01T05:44:53.353637Z"
+        },
+        "received_at": "2025-03-27T14:24:46.210827744Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZVG42QMQA84JZ0444T2X0"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZVGARAVQ7GBA7SWC0281Y"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:23:53.600700234Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZSWHETM7TXGV7D9NMMH1E"
+      ],
+      "received_at": "2025-03-27T14:23:53.593105593Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 9,
+        "frm_payload": "RgFr",
+        "decoded_payload": {
+          "D1": 70,
+          "D2": 363
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:44:00.543885Z",
+            "timestamp": 2606705883,
+            "rssi": -95,
+            "channel_rssi": -95,
+            "snr": 7.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENvZ/NoJGgwI+b6VvwYQ9tqCugEg+O6c3u5L",
+            "channel_index": 4,
+            "received_at": "2025-03-27T14:23:53.390114678Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904700000",
+          "timestamp": 2606705883,
+          "time": "2012-01-01T05:44:00.543885Z"
+        },
+        "received_at": "2025-03-27T14:23:53.390610408Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.11111111,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZSWHETM7TXGV7D9NMMH1E"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZSWR0SATHSQ1KYMRJ6CJG"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:23:52.226603334Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZSV6ACQDQ1G2J5XJK4EWG"
+      ],
+      "received_at": "2025-03-27T14:23:52.220925480Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 15,
+        "frm_payload": "XAC9",
+        "decoded_payload": {
+          "D1": 92,
+          "D2": 189
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:43:59.179798Z",
+            "timestamp": 2605338051,
+            "rssi": -54,
+            "channel_rssi": -54,
+            "snr": 10,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEMObqdoJGgsI+L6VvwYQ4oTkBCC4g//R6Us=",
+            "channel_index": 1,
+            "received_at": "2025-03-27T14:23:52.010027618Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904100000",
+          "timestamp": 2605338051,
+          "time": "2012-01-01T05:43:59.179798Z"
+        },
+        "received_at": "2025-03-27T14:23:52.011001027Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZSV6ACQDQ1G2J5XJK4EWG"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZSVD2THWNDCVV1R8SBZ2Q"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:23:05.497825393Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZRDJBHDWG74X914QRZMAY"
+      ],
+      "received_at": "2025-03-27T14:23:05.495727971Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 14,
+        "frm_payload": "XQA6",
+        "decoded_payload": {
+          "D1": 93,
+          "D2": 58
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:43:12.459260Z",
+            "timestamp": 2558621563,
+            "rssi": -71,
+            "channel_rssi": -71,
+            "snr": 6.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEPvuhcQJGgwIyb6VvwYQvaPaigEg+PDqzbtK",
+            "channel_index": 2,
+            "received_at": "2025-03-27T14:23:05.290886077Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904300000",
+          "timestamp": 2558621563,
+          "time": "2012-01-01T05:43:12.459260Z"
+        },
+        "received_at": "2025-03-27T14:23:05.292168111Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.23076923,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZRDJBHDWG74X914QRZMAY"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZRDRSA27Y0RKS009MDYYC"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:22:36.248417701Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZQH0BW0GSW2F5MTHQ9MXH"
+      ],
+      "received_at": "2025-03-27T14:22:36.246287095Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 8,
+        "frm_payload": "GQJy",
+        "decoded_payload": {
+          "D1": 25,
+          "D2": 626
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:42:43.196478Z",
+            "timestamp": 2529354764,
+            "rssi": -91,
+            "channel_rssi": -91,
+            "snr": 6.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEIzIi7YJGgsIrL6VvwYQnO7rFCDgnavKzkk=",
+            "channel_index": 6,
+            "received_at": "2025-03-27T14:22:36.043710236Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "905100000",
+          "timestamp": 2529354764,
+          "time": "2012-01-01T05:42:43.196478Z"
+        },
+        "received_at": "2025-03-27T14:22:36.044191006Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.125,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZQH0BW0GSW2F5MTHQ9MXH"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZQH6RX3YKW459S8F05P78"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:22:17.701183405Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZPYWAEANGHNKG63PN27QE"
+      ],
+      "received_at": "2025-03-27T14:22:17.693775116Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 13,
+        "frm_payload": "AQez",
+        "decoded_payload": {
+          "D1": 1,
+          "D2": 1971
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:42:24.640133Z",
+            "timestamp": 2510797011,
+            "rssi": -85,
+            "channel_rssi": -85,
+            "snr": 9.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENPxnq0JGgwImb6VvwYQo4Of5gEguPCnuYlJ",
+            "channel_index": 4,
+            "received_at": "2025-03-27T14:22:17.482853283Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904700000",
+          "timestamp": 2510797011,
+          "time": "2012-01-01T05:42:24.640133Z"
+        },
+        "received_at": "2025-03-27T14:22:17.483920914Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.25,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZPYWAEANGHNKG63PN27QE"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZPZ35KG8N6FPFSSAE79NS"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:21:29.816101497Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZNG4353E8HMQ1K28MR4E5"
+      ],
+      "received_at": "2025-03-27T14:21:29.813441857Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 12,
+        "frm_payload": "XAUE",
+        "decoded_payload": {
+          "D1": 92,
+          "D2": 1284
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:41:36.769176Z",
+            "timestamp": 2462929068,
+            "rssi": -96,
+            "channel_rssi": -96,
+            "snr": 4.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEKyhtZYJGgwI6b2VvwYQm5m8nwIg4L+MkNdH",
+            "channel_index": 5,
+            "received_at": "2025-03-27T14:21:29.602868891Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904900000",
+          "timestamp": 2462929068,
+          "time": "2012-01-01T05:41:36.769176Z"
+        },
+        "received_at": "2025-03-27T14:21:29.604269226Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.27272728,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZNG4353E8HMQ1K28MR4E5"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZNGARA3KS6PH0E56B15M3"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:21:18.750946249Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZN59VDRFZ3CNEY5QTA12C"
+      ],
+      "received_at": "2025-03-27T14:21:18.734276167Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 7,
+        "frm_payload": "OwOs",
+        "decoded_payload": {
+          "D1": 59,
+          "D2": 940
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:41:25.679342Z",
+            "timestamp": 2451836068,
+            "rssi": -76,
+            "channel_rssi": -76,
+            "snr": 9.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEKSZkJEJGgwI3r2VvwYQzc2v+QEgoMHF5q1H",
+            "channel_index": 7,
+            "received_at": "2025-03-27T14:21:18.522970829Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "905300000",
+          "timestamp": 2451836068,
+          "time": "2012-01-01T05:41:25.679342Z"
+        },
+        "received_at": "2025-03-27T14:21:18.524060567Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.14285715,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZN59VDRFZ3CNEY5QTA12C"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZN5GYZNJF48TE29YJ3KNW"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:20:42.015206093Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZM1E8PSSK79WAC34NMB9A"
+      ],
+      "received_at": "2025-03-27T14:20:42.012434488Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 11,
+        "frm_payload": "SwZA",
+        "decoded_payload": {
+          "D1": 75,
+          "D2": 1600
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:40:48.956437Z",
+            "timestamp": 2415110300,
+            "rssi": -103,
+            "channel_rssi": -103,
+            "snr": 1.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEJzRzv8IGgwIub2VvwYQ0/Lv/QIg4MKq/qRG",
+            "channel_index": 7,
+            "received_at": "2025-03-27T14:20:41.800848211Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "905300000",
+          "timestamp": 2415110300,
+          "time": "2012-01-01T05:40:48.956437Z"
+        },
+        "received_at": "2025-03-27T14:20:41.801438990Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.3,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZM1E8PSSK79WAC34NMB9A"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZM1MZFWD9YYZK1K3F8XWK"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:19:54.158146852Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZJJPNJRG36H2DQA6RV5PJ"
+      ],
+      "received_at": "2025-03-27T14:19:54.151373565Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 10,
+        "frm_payload": "DQak",
+        "decoded_payload": {
+          "D1": 13,
+          "D2": 1700
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:40:01.080461Z",
+            "timestamp": 2367231715,
+            "rssi": -97,
+            "channel_rssi": -97,
+            "snr": 5.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEOOt5OgIGgwIib2VvwYQpajywAMguM2F0PJE",
+            "channel_index": 3,
+            "received_at": "2025-03-27T14:19:53.941397029Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904500000",
+          "timestamp": 2367231715,
+          "time": "2012-01-01T05:40:01.080461Z"
+        },
+        "received_at": "2025-03-27T14:19:53.942445531Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.33333334,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZJJPNJRG36H2DQA6RV5PJ"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZJJXE0A6ZHMNXS44BAKWE"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:19:06.305817935Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZH3ZHN07BHZNDDV7ZX3KV"
+      ],
+      "received_at": "2025-03-27T14:19:06.300183210Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 9,
+        "frm_payload": "IALZ",
+        "decoded_payload": {
+          "D1": 32,
+          "D2": 729
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:39:13.256346Z",
+            "timestamp": 2319408652,
+            "rssi": -102,
+            "channel_rssi": -102,
+            "snr": -5.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEIy8/dEIGgsI2ryVvwYQp6WeLiDgvZ28wEM=",
+            "channel_index": 6,
+            "received_at": "2025-03-27T14:19:06.096965287Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "905100000",
+          "timestamp": 2319408652,
+          "time": "2012-01-01T05:39:13.256346Z"
+        },
+        "received_at": "2025-03-27T14:19:06.097527403Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.375,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZH3ZHN07BHZNDDV7ZX3KV"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZH46173XJX4635D2E80EW"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:18:43.405474329Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZGDKXT2GS6VJW4X1NNCTH"
+      ],
+      "received_at": "2025-03-27T14:18:43.399818022Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 5,
+        "frm_payload": "WQNO",
+        "decoded_payload": {
+          "D1": 89,
+          "D2": 846
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:38:50.369374Z",
+            "timestamp": 2296519172,
+            "rssi": -105,
+            "channel_rssi": -105,
+            "snr": -2.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEIS0iMcIGgsIw7yVvwYQ/+/2XSCgv9aZ60I=",
+            "channel_index": 5,
+            "received_at": "2025-03-27T14:18:43.196982783Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904900000",
+          "timestamp": 2296519172,
+          "time": "2012-01-01T05:38:50.369374Z"
+        },
+        "received_at": "2025-03-27T14:18:43.197562818Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZGDKXT2GS6VJW4X1NNCTH"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZGDTDMME371G04DN8GWKH"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:18:18.456833181Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZFN855DGTH8V08GEBVZB1"
+      ],
+      "received_at": "2025-03-27T14:18:18.449240013Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 8,
+        "frm_payload": "HwC3",
+        "decoded_payload": {
+          "D1": 31,
+          "D2": 183
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:38:25.395167Z",
+            "timestamp": 2271548563,
+            "rssi": -106,
+            "channel_rssi": -106,
+            "snr": -3.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEJOplLsIGgsIqryVvwYQ9NnldCC4vOGWjkI=",
+            "received_at": "2025-03-27T14:18:18.244935924Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "903900000",
+          "timestamp": 2271548563,
+          "time": "2012-01-01T05:38:25.395167Z"
+        },
+        "received_at": "2025-03-27T14:18:18.246111302Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.42857143,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZFN855DGTH8V08GEBVZB1"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZFNER5TXW8KJK2TMBATPN"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:17:30.569819492Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZE6FWZZR6RHFJJBBX317B"
+      ],
+      "received_at": "2025-03-27T14:17:30.567878555Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 7,
+        "frm_payload": "MwX9",
+        "decoded_payload": {
+          "D1": 51,
+          "D2": 1533
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:37:37.527671Z",
+            "timestamp": 2223677043,
+            "rssi": -102,
+            "channel_rssi": -102,
+            "snr": -0.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEPO8qqQIGgwI+ruVvwYQvKH2rQEguOLr69tA",
+            "received_at": "2025-03-27T14:17:30.364744892Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "903900000",
+          "timestamp": 2223677043,
+          "time": "2012-01-01T05:37:37.527671Z"
+        },
+        "received_at": "2025-03-27T14:17:30.365351323Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.5,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZE6FWZZR6RHFJJBBX317B"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZE6P94GA3RBABRQX7N7WP"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:17:25.803409231Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZE1THM0NZA1RKT774BERH"
+      ],
+      "received_at": "2025-03-27T14:17:25.797380105Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 4,
+        "frm_payload": "DwUb",
+        "decoded_payload": {
+          "D1": 15,
+          "D2": 1307
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:37:32.724270Z",
+            "timestamp": 2218876499,
+            "rssi": -107,
+            "channel_rssi": -107,
+            "snr": -4.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENO8haIIGgwI9buVvwYQqKX/lgIguOjh+slA",
+            "received_at": "2025-03-27T14:17:25.585093800Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "903900000",
+          "timestamp": 2218876499,
+          "time": "2012-01-01T05:37:32.724270Z"
+        },
+        "received_at": "2025-03-27T14:17:25.586212062Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZE1THM0NZA1RKT774BERH"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZE21BSJR669RVE7S35PTT"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:16:08.108976125Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZBNYTRGEMFZ86NCR5YVW3"
+      ],
+      "received_at": "2025-03-27T14:16:08.103316398Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 3,
+        "frm_payload": "MwCR",
+        "decoded_payload": {
+          "D1": 51,
+          "D2": 145
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:36:15.067726Z",
+            "timestamp": 2141218851,
+            "rssi": -91,
+            "channel_rssi": -91,
+            "snr": 3.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEKPQgf0HGgwIp7uVvwYQkK2frAMguJHb1Kg+",
+            "channel_index": 2,
+            "received_at": "2025-03-27T14:16:07.898094736Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904300000",
+          "timestamp": 2141218851,
+          "time": "2012-01-01T05:36:15.067726Z"
+        },
+        "received_at": "2025-03-27T14:16:07.898630496Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZBNYTRGEMFZ86NCR5YVW3"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZBP5C7RP01542WYF0F89F"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:15:54.906323958Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZB929RMTWGD7GKH1V7B8J"
+      ],
+      "received_at": "2025-03-27T14:15:54.899888155Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 5,
+        "frm_payload": "Pwa7",
+        "decoded_payload": {
+          "D1": 63,
+          "D2": 1723
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:36:01.866102Z",
+            "timestamp": 2128022275,
+            "rssi": -98,
+            "channel_rssi": -98,
+            "snr": 3.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEIOW3PYHGgwImruVvwYQwOqyzAIguIeMwPc9",
+            "channel_index": 4,
+            "received_at": "2025-03-27T14:15:54.697087296Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904700000",
+          "timestamp": 2128022275,
+          "time": "2012-01-01T05:36:01.866102Z"
+        },
+        "received_at": "2025-03-27T14:15:54.697619824Z",
+        "consumed_airtime": "0.051456s",
+        "packet_error_rate": 0.5,
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZB929RMTWGD7GKH1V7B8J"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZB98T9GKD092VKS1QEP4A"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:14:50.573115608Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ9A7T9CYJRV0FSVG6C69P"
+      ],
+      "received_at": "2025-03-27T14:14:50.570940189Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 2,
+        "frm_payload": "DAXM",
+        "decoded_payload": {
+          "D1": 12,
+          "D2": 1484
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:34:57.545865Z",
+            "timestamp": 2063695924,
+            "rssi": -89,
+            "channel_rssi": -89,
+            "snr": 8.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIELSAhtgHGgwI2rqVvwYQ6MbOrAEgoJbz7oc8",
+            "channel_index": 6,
+            "received_at": "2025-03-27T14:14:50.361997160Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "905100000",
+          "timestamp": 2063695924,
+          "time": "2012-01-01T05:34:57.545865Z"
+        },
+        "received_at": "2025-03-27T14:14:50.363026702Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ9A7T9CYJRV0FSVG6C69P"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ9AED71M2C36AZTNGFFC4"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:13:32.913513158Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ6YCVV26ZJPFGKX2ZXWHE"
+      ],
+      "received_at": "2025-03-27T14:13:32.911172692Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "f_cnt": 1,
+        "frm_payload": "Wwca",
+        "decoded_payload": {
+          "D1": 91,
+          "D2": 1818
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:33:39.857035Z",
+            "timestamp": 1985999891,
+            "rssi": -75,
+            "channel_rssi": -75,
+            "snr": 9.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEJPo/7IHGgwIjLqVvwYQ7pPRzQIguNTFtuY5",
+            "channel_index": 3,
+            "received_at": "2025-03-27T14:13:32.699681262Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904500000",
+          "timestamp": 1985999891,
+          "time": "2012-01-01T05:33:39.857035Z"
+        },
+        "received_at": "2025-03-27T14:13:32.700649876Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ6YCVV26ZJPFGKX2ZXWHE"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ6YKHT766FNGVVDXAFQ1X"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:13:31.315063913Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ6WTV5GKV5W2M8JKZBJ11"
+      ],
+      "received_at": "2025-03-27T14:13:31.309223283Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 2,
+        "frm_payload": "PAGo",
+        "decoded_payload": {
+          "D1": 60,
+          "D2": 424
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:33:38.260779Z",
+            "timestamp": 1984409947,
+            "rssi": -100,
+            "channel_rssi": -100,
+            "snr": 3.8,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENvinrIHGgsIi7qVvwYQrfHMLyD4lrPA4Dk=",
+            "channel_index": 3,
+            "received_at": "2025-03-27T14:13:31.099825837Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 7,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904500000",
+          "timestamp": 1984409947,
+          "time": "2012-01-01T05:33:38.260779Z"
+        },
+        "received_at": "2025-03-27T14:13:31.100780634Z",
+        "consumed_airtime": "0.051456s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ6WTV5GKV5W2M8JKZBJ11"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ6X1KG3FM5GTSH7DQCTMY"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:12:44.552481444Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ5F5TBEJC0X3YV5P4DPHB"
+      ],
+      "received_at": "2025-03-27T14:12:44.550305218Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "f_cnt": 1,
+        "frm_payload": "JQED",
+        "decoded_payload": {
+          "D1": 37,
+          "D2": 259
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:32:51.511232Z",
+            "timestamp": 1937666004,
+            "rssi": -85,
+            "channel_rssi": -85,
+            "snr": 11,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENTf+ZsHGgwI3LmVvwYQs7GxpQEgoKiTr7I4",
+            "channel_index": 5,
+            "received_at": "2025-03-27T14:12:44.346839219Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 8,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904900000",
+          "timestamp": 1937666004,
+          "time": "2012-01-01T05:32:51.511232Z"
+        },
+        "received_at": "2025-03-27T14:12:44.348368644Z",
+        "consumed_airtime": "0.102912s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ5F5TBEJC0X3YV5P4DPHB"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ5FC89D6J9YXBGJ4FCEX3"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:12:16.432670502Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ4KQ3BF7QV04N7TTQXHWP"
+      ],
+      "received_at": "2025-03-27T14:12:16.429844227Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "f_port": 1,
+        "frm_payload": "RwA0",
+        "decoded_payload": {
+          "D1": 71,
+          "D2": 52
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:32:23.406646Z",
+            "timestamp": 1909546588,
+            "rssi": -69,
+            "channel_rssi": -69,
+            "snr": 13.5,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIENy8xY4HGgsIwLmVvwYQssGWbCDgruLOyTc=",
+            "channel_index": 1,
+            "received_at": "2025-03-27T14:12:16.226861234Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 10,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904100000",
+          "timestamp": 1909546588,
+          "time": "2012-01-01T05:32:23.406646Z"
+        },
+        "received_at": "2025-03-27T14:12:16.227428514Z",
+        "consumed_airtime": "0.329728s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ4KQ3BF7QV04N7TTQXHWP"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ4KXG90T5A3TP3Y6JBZ3Q"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2025-03-27T14:12:09.804353073Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B7"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ4BNKEBY12VNTV7KYYG0P"
+      ],
+      "received_at": "2025-03-27T14:12:09.801073313Z",
+      "join_accept": {
+        "session_key_id": "AZXX8i8+X/nete8NOw9UYw==",
+        "received_at": "2025-03-27T14:12:07.987771018Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ4BNKEBY12VNTV7KYYG0P"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ4DECJ6MJBT93FVPGYAFN"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2025-03-27T14:12:08.190074721Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2BB"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "AAAAAAAAAAAA/EEA2H7Vs3AhAEs9iBs=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "Sz2IGw==",
+        "join_request_payload": {
+          "join_eui": "0000000000000000",
+          "dev_eui": "70B3D57ED80041FC",
+          "dev_nonce": "0021"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "904700000",
+        "timestamp": 1901297780,
+        "time": "2012-01-01T05:32:15.160089Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "eui-a84041ffff1ee288",
+            "eui": "A84041FFFF1EE288"
+          },
+          "time": "2012-01-01T05:32:15.160089Z",
+          "timestamp": 1901297780,
+          "rssi": -72,
+          "channel_rssi": -72,
+          "snr": 11.5,
+          "location": {
+            "latitude": 5.55273776730494,
+            "longitude": -73.355562768885,
+            "altitude": 2782,
+            "source": "SOURCE_REGISTRY"
+          },
+          "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEPSAzooHGgwIt7mVvwYQ2Znf1gMgoIq38ao3",
+          "channel_index": 4,
+          "received_at": "2025-03-27T14:12:07.987221209Z"
+        }
+      ],
+      "received_at": "2025-03-27T14:12:07.987771018Z",
+      "correlation_ids": [
+        "gs:uplink:01JQBZ4BNKEBY12VNTV7KYYG0P"
+      ],
+      "device_channel_index": 12,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ4BNKEBY12VNTV7KYYG0P"
+    ],
+    "origin": "ip-10-22-6-235.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ4BVYV5A5VNHSXQBPPP9T"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2025-03-27T14:12:08.128748449Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B7"
+        }
+      }
+    ],
+    "origin": "ip-10-22-5-111.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ4BT0BZ9206GNS3K06K53"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T14:11:57.788858896Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ41G6EMH5C8NS6CRF4NFW"
+      ],
+      "received_at": "2025-03-27T14:11:57.785990836Z",
+      "uplink_message": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "f_port": 1,
+        "frm_payload": "XAVz",
+        "decoded_payload": {
+          "D1": 92,
+          "D2": 1395
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "eui-a84041ffff1ee288",
+              "eui": "A84041FFFF1EE288"
+            },
+            "time": "2012-01-01T05:32:04.734926Z",
+            "timestamp": 1890876804,
+            "rssi": -75,
+            "channel_rssi": -75,
+            "snr": 8.2,
+            "location": {
+              "latitude": 5.55273776730494,
+              "longitude": -73.355562768885,
+              "altitude": 2782,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEIT70YUHGgwIrbmVvwYQxamKkgIgoJepiIQ3",
+            "channel_index": 2,
+            "received_at": "2025-03-27T14:11:57.574788805Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 10,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "904300000",
+          "timestamp": 1890876804,
+          "time": "2012-01-01T05:32:04.734926Z"
+        },
+        "received_at": "2025-03-27T14:11:57.575744795Z",
+        "consumed_airtime": "0.329728s",
+        "network_ids": {
+          "net_id": "000013",
+          "ns_id": "EC656E000010321A",
+          "tenant_id": "stpcu",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.industries",
+          "tenant_address": "stpcu.nam1.cloud.thethings.industries"
+        }
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ41G6EMH5C8NS6CRF4NFW"
+    ],
+    "origin": "ip-10-22-4-122.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ41PWXR2HR44DHJP3ATYY"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2025-03-27T14:11:51.132151005Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgobus",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FB",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B9"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBZ3SE3JSF1E0CFG5ZH90QB"
+      ],
+      "received_at": "2025-03-27T14:11:51.125668525Z",
+      "join_accept": {
+        "session_key_id": "AZXX8eXM/Vzd8lztjfosgA==",
+        "received_at": "2025-03-27T14:11:49.315972685Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ3SE3JSF1E0CFG5ZH90QB"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ3V6W3CTEVZG0XZGW4JZ8"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2025-03-27T14:11:49.518667440Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2BB"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "AAAAAAAAAAAA+0EA2H7Vs3A1AM0AJLA=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "zQAksA==",
+        "join_request_payload": {
+          "join_eui": "0000000000000000",
+          "dev_eui": "70B3D57ED80041FB",
+          "dev_nonce": "0035"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "904500000",
+        "timestamp": 1882630980,
+        "time": "2012-01-01T05:31:56.486468Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "eui-a84041ffff1ee288",
+            "eui": "A84041FFFF1EE288"
+          },
+          "time": "2012-01-01T05:31:56.486468Z",
+          "timestamp": 1882630980,
+          "rssi": -83,
+          "channel_rssi": -83,
+          "snr": 10.8,
+          "location": {
+            "latitude": 5.55273776730494,
+            "longitude": -73.355562768885,
+            "altitude": 2782,
+            "source": "SOURCE_REGISTRY"
+          },
+          "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEMTW2oEHGgwIpbmVvwYQzdyTlgEgoIO0rOU2",
+          "channel_index": 3,
+          "received_at": "2025-03-27T14:11:49.314895949Z"
+        }
+      ],
+      "received_at": "2025-03-27T14:11:49.315972685Z",
+      "correlation_ids": [
+        "gs:uplink:01JQBZ3SE3JSF1E0CFG5ZH90QB"
+      ],
+      "device_channel_index": 11,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBZ3SE3JSF1E0CFG5ZH90QB"
+    ],
+    "origin": "ip-10-22-6-235.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ3SMEYSRPP2DCPCMN45QX"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2025-03-27T14:11:49.335379628Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgobus",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FB",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B9"
+        }
+      }
+    ],
+    "origin": "ip-10-22-13-45.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBZ3SEQS5N90CD9JB8WSTV1"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2025-03-27T14:07:00.019844515Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B6"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "lylgoparadero",
+        "application_ids": {
+          "application_id": "test-lopy-colombia"
+        },
+        "dev_eui": "70B3D57ED80041FC",
+        "join_eui": "0000000000000000",
+        "dev_addr": "27FDA2B6"
+      },
+      "correlation_ids": [
+        "gs:uplink:01JQBYTWVSSQYMRCAVQFH8J02J"
+      ],
+      "received_at": "2025-03-27T14:07:00.002839757Z",
+      "join_accept": {
+        "session_key_id": "AZXX7XSIqVsyxr+FmSTgUQ==",
+        "received_at": "2025-03-27T14:06:58.046616410Z"
+      }
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBYTWVSSQYMRCAVQFH8J02J"
+    ],
+    "origin": "ip-10-22-14-53.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBYTYXKJR9TVWE35FJEXBDQ"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2025-03-27T14:06:58.257412552Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2BB"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "AAAAAAAAAAAA/EEA2H7Vs3AgAEuu+dE=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "S6750Q==",
+        "join_request_payload": {
+          "join_eui": "0000000000000000",
+          "dev_eui": "70B3D57ED80041FC",
+          "dev_nonce": "0020"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 10,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "903900000",
+        "timestamp": 1591222260,
+        "time": "2012-01-01T05:27:05.078611Z"
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "eui-a84041ffff1ee288",
+            "eui": "A84041FFFF1EE288"
+          },
+          "time": "2012-01-01T05:27:05.078611Z",
+          "timestamp": 1591222260,
+          "rssi": -79,
+          "channel_rssi": -79,
+          "snr": 11.8,
+          "location": {
+            "latitude": 5.55273776730494,
+            "longitude": -73.355562768885,
+            "altitude": 2782,
+            "source": "SOURCE_REGISTRY"
+          },
+          "uplink_token": "CiIKIAoUZXVpLWE4NDA0MWZmZmYxZWUyODgSCKhAQf//HuKIEPS/4PYFGgwIgbeVvwYQ/467swMgoKLz4acu",
+          "received_at": "2025-03-27T14:06:57.913229695Z"
+        }
+      ],
+      "received_at": "2025-03-27T14:06:58.046616410Z",
+      "correlation_ids": [
+        "gs:uplink:01JQBYTWVSSQYMRCAVQFH8J02J"
+      ],
+      "device_channel_index": 8,
+      "consumed_airtime": "0.370688s"
+    },
+    "correlation_ids": [
+      "gs:uplink:01JQBYTWVSSQYMRCAVQFH8J02J"
+    ],
+    "origin": "ip-10-22-13-199.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBYTX6HD5YQHXXGRTTG3KKZ"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2025-03-27T14:06:58.194925521Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          },
+          "dev_eui": "70B3D57ED80041FC",
+          "join_eui": "0000000000000000",
+          "dev_addr": "27FDA2B6"
+        }
+      }
+    ],
+    "origin": "ip-10-22-13-45.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBYTX4JWTJGCPCFQC13SNR0"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T13:56:45.565524229Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBY86VX77V91063TNAV2Z1T"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T13:55:29.156802777Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBY5W84WW37TPW5VP00DBBK"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2025-03-27T13:54:12.678173468Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBY3HJ616D2VME140YJBKY7"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2025-03-27T13:54:06.146704915Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBY3B624KE0MQK0RN70HEF7"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2025-03-27T13:54:04.540965882Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBY39KWN1NJW5SRHACF6JZJ"
+  },
+  {
+    "name": "js.join.accept",
+    "time": "2025-03-27T13:54:04.479421451Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "lylgoparadero",
+          "application_ids": {
+            "application_id": "test-lopy-colombia"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgVzdHBjdQ=="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01JQBY39HZS6D3HFWV6QNMWZ60"
+  }
+]

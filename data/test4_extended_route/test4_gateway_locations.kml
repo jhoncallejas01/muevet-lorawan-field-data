@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ex="http://earth.google.com/kml/ext">
+<Document id="1LQ-Ui_BGG7hplflVT5zjEmrDNuGl9lrD">
+	<ex:extension>base64;Co4BCoEBCn8KAggBEnkKdwokCiAKAwjQDxoHCNLtZRD_ASEAAAAAAADwPykAAAAAAAAAABgAEg8KCAitgO8HEP8BEKAfGAAaGgoHCP___wcQQBIICK2A7wcQ_wEYoB8gACgAIgkIARIFCP___wcqFwgBEggI____BxD_ARkAAAAAAADwPyAAEgQIARAAGgIIAA</ex:extension>
+	<name>Mapa sin nombre</name>
+	<gx:CascadingStyle kml:id="__managed_style_06DBB4CB6A42CF8EE120_highlight">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_06DBB4CB6A42CF8EE120_normal">
+		<ex:extension>base64;EgIYAQ</ex:extension>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_06DBB4CB6A42CF8EE120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_06DBB4CB6A42CF8EE120_normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_06DBB4CB6A42CF8EE120_highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0D9CD9CFDD42CF8EE093">
+		<name>POSGRADOS</name>
+		<LookAt>
+			<longitude>-73.3563442007989</longitude>
+			<latitude>5.546391246153321</latitude>
+			<altitude>2689.087842815403</altitude>
+			<heading>-29.38104603498113</heading>
+			<tilt>2.39308863546311</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1533.587859449181</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06DBB4CB6A42CF8EE120</styleUrl>
+		<Point>
+			<coordinates>-73.35535255514333,5.547905021909786,2687.109103885869</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FAE7FA91042CF8F7B2C">
+		<name>ARANJUEZ</name>
+		<LookAt>
+			<longitude>-73.35306793472169</longitude>
+			<latitude>5.54740682745362</latitude>
+			<altitude>2687.132240676867</altitude>
+			<heading>2.691250688523962</heading>
+			<tilt>29.20051811767861</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2774.050844844897</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06DBB4CB6A42CF8EE120</styleUrl>
+		<Point>
+			<coordinates>-73.34773449268594,5.545927936062527,2688.142366805091</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="091843385142CF8FDF38">
+		<name>VIVA</name>
+		<LookAt>
+			<longitude>-73.34891300395773</longitude>
+			<latitude>5.555516963090217</latitude>
+			<altitude>2681.620277385739</altitude>
+			<heading>-1.444616157439745</heading>
+			<tilt>17.34795556807159</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2887.129160338955</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06DBB4CB6A42CF8EE120</styleUrl>
+		<Point>
+			<coordinates>-73.34467828991797,5.557214843216121,2678.995784427877</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="012945D1CB42CF900B77">
+		<name>GALILEA</name>
+		<LookAt>
+			<longitude>-73.34725237150835</longitude>
+			<latitude>5.565645327621752</latitude>
+			<altitude>2712.955208363932</altitude>
+			<heading>-1.444615977606853</heading>
+			<tilt>17.34786757395522</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2854.300594026572</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_06DBB4CB6A42CF8EE120</styleUrl>
+		<Point>
+			<coordinates>-73.34486529762417,5.567533297946696,2724.575366270521</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
